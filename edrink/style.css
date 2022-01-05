@@ -1,0 +1,225 @@
+require('bootstrap')
+.no-margin{
+	margin: 0px!important;
+}
+.no-padding{
+	padding: 0px!important; 
+}
+.body-back{
+	background-color: #e6e6e6 ;
+}
+.img-logo{
+	width: 54px;
+}
+.nav{
+	padding: 10px 20px 15px 20px;
+	background-color: #54555d;
+}
+.img-carrinho{
+	width: 45px;
+}
+.label1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #FFF;
+	font-size: 20px;	
+}
+.espaco1{
+	padding-top: 23px;
+}
+.botao{
+	border: 1px solid #FFF;
+    padding: 7px 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFF;
+    background-color: transparent;	
+}
+.botao:focus{
+	outline: 0;
+}
+.botao:hover{
+	cursor: pointer;
+	outline: 0;
+}
+.espaco2{
+	padding-top: 14px;
+}
+.card{
+	margin: 24px;
+	padding: 15px 20px 15px 20px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 3px 6px #00000080;
+	border-radius: 4px;
+	min-width: 150px!important;
+}
+.inputs{
+	padding: 5px 15px;
+	background-color: #FFF;
+	color: #BABABA;
+	border: 1px solid #BABABA;
+	border-radius: 4px;	
+}
+.tamanho-inputs{
+	width: 90%
+}
+.inputs:focus{
+	outline: 0;
+	border-color: #000;
+}
+.label2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #BABABA;
+	font-size: 24px;	
+}
+.label2:hover{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #292929;
+	font-size: 24px;	
+}
+.label2-active{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #292929;
+	font-size: 24px;	
+}
+.label2-active{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #3a3a3a;
+	font-size: 24px;	
+}
+.espaco3{
+	margin-right: 2%;
+}
+.label3{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #3a3a3a;
+	font-size: 22px;
+}
+.botao2{
+	border: 1px solid #54555d;
+    padding: 7px 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #54555d;
+    background-color: transparent;
+    box-shadow: 0px 3px 6px #00000080;
+}
+.botao2:hover{
+	outline: 0;
+	cursor: pointer;
+}
+.botao2:focus{
+	outline: 0;
+}
+.label4{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #3a3a3a;
+	font-size: 16px;	
+}
+.espaco4{
+	margin-top: 10px;
+}
+
+.label5{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #4ede61;
+	font-size: 20px;	
+}
+.label6{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color:  #3a3a3a;
+	font-size: 20px;	
+}
+a:hover{
+	text-decoration: none!important;
+}
+.label7{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #3a3a3a;
+	font-size: 14px;
+}
+.label8{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #5ed46e;
+	font-size: 14px;
+}
+.label9{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	color: #ff2828;
+	font-size: 14px;
+}
+.body-img{
+	background-image: url('imagem/fundinho.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.class-label{
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.espaco6{
+	margin-top: 12px;
+}
+@media only screen and (min-width: 993px) {
+   .espaco7{
+   	    max-height: 260px;
+   		margin-top: 14%;
+   }
+   .espaco8{
+   		margin-top: 10%;   		
+   }
+}
+.label10{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #e03939;
+    font-size: 14px;
+}
+.label11{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #ababab;
+    font-size: 14px
+}
+.botao3{
+	border: 1px solid #54555d;
+    padding: 7px 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #54555d;
+    background-color: transparent;
+    box-shadow: 0px 3px 6px #00000080;
+}
+.botao3:hover{
+	outline: 0;
+	cursor: pointer;
+	border: 1px solid #4ede61;
+}
+.botao3:focus{
+	outline: 0;	
+	box-shadow: 0px 3px 6px #00000080;
+	color: #4ede61;
+}
+.label12{
+	font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #BABABA;
+    font-size: 12px;
+}
+.espaco9{
+	margin-bottom: 5px;
+}
